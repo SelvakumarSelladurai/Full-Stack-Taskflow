@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import App from "../../App"
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 
 export default function MainLayout({
-    children,
     activePage,
     onNavigate,
     title,
@@ -80,7 +80,7 @@ export default function MainLayout({
                 />
 
                 <main className="flex-1 p-5 sm:p-8">
-                    {children}
+                    <App />
                 </main>
             </div>
         </div>
