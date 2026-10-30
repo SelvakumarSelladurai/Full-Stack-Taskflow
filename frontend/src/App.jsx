@@ -1,9 +1,9 @@
-import MainLayout from "./components/layout/MainLayout";
+import Dashboard from "./components/dashboard/Dashboard";
 
 const App = () => {
   return (
     <div>
-      <MainLayout />
+      <Dashboard />
     </div>
   )
 }
